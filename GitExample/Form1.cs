@@ -17,6 +17,11 @@ namespace GitExample
             InitializeComponent();
         }
 
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("OK");
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hola mundo");
