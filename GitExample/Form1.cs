@@ -21,5 +21,10 @@ namespace GitExample
         {
             MessageBox.Show("OK");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Hola mundo");
+        }
     }
 }
